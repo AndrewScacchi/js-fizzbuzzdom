@@ -1,19 +1,14 @@
 /* STYLE FOR FIZZBUZZDOM */
 
 /* General */
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* 
-random  #1389b2 
-/3      #
-/5      #
-/15     #
-*/
+/* Layout Styles */
+
 .container {
     background-color: #083b4c;
     min-height: 100vh;
@@ -21,7 +16,6 @@ random  #1389b2
     display: flex;
     flex: row;
     flex-wrap: wrap;
-    
 }
 .title {
     width: 100%;
@@ -29,7 +23,34 @@ random  #1389b2
     color: white;
     font-size: 5em
 }
-.grid-container {
+.grid {
     width: 100%;
     border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15px 10px;
+}
+
+/* JAVASCRIPT Generated boxes */
+
+.box {
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    color: black;
+    font-weight: bold;
+    background-color: #1389b2;
+}
+/* additional classes */
+.fizz {
+    background-color: #0bd6a1;
+}
+.buzz {
+    background-color: #ffd166;
+}
+.fizzbuzz {
+    background-color: #f0466f;
 }
