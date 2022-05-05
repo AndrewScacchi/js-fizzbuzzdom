@@ -7,3 +7,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* 
+random  #1389b2 
+/3      #
+/5      #
+/15     #
+*/
+.container {
+    background-color: #083b4c;
+    min-height: 100vh;
+    padding: 2em 15%;
+    display: flex;
+    flex: row;
+    flex-wrap: wrap;
+    
+}
+.title {
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 5em
+}
+.grid-container {
+    width: 100%;
+    border: 1px solid red;
+}
